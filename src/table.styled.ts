@@ -61,7 +61,7 @@ const styles: (CSSObject | FunctionInterpolation<TableProps>)[] = [
     return {
       [createMediaQuery(1024)]: {
         'tbody tr:hover td': {
-          backgroundColor: 'var(--ds-colors-background-secondary)',
+          backgroundColor: 'var(--ds-colors-background-elevated-secondary)',
         },
       },
     };
